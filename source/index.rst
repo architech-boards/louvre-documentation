@@ -5,6 +5,8 @@ Welcome to Louvre Board's documentation!
 :Copyright: (C)2014 Silica an Avnet company
 :Date: 16 Sep 2014
 
+.. image:: _images/louvre_board.jpg
+
 .. image:: _images/silica.png
 
 .. image:: _images/nxp.jpg
@@ -18,25 +20,28 @@ Welcome to Louvre Board's documentation!
 Introduction
 ============
 
-**Silica Louvre board** is an useful product to evaluate the capabilities of **NFC** with **NXP** technology.
-The board is released with an firmware capable to comunicate with an **android application**.
-This firmware can display on an **e-ink screen** the images sent by the android device.
+| **Silica Louvre board** is an useful product to evaluate the capabilities of **NFC** with **NXP** technology.
+| The Louvre is a low power consumption board, the power supply is supplied exclusively from the NFC antenna of the android device.
+| The firmware provided can display on an **e-ink** screen the images sent by an **android application**.
+|
+| In this documentation we show step by step the features of the firmware and how debug it.
+|
 
 .. note::
 
-	If you want quickly see how the demo works go here :ref:`quick`!
+	If you want quickly see how the demos work go here :ref:`quick`!
 
-| After the registration from `ArchiTech website <http://www.architechboards.org/>`_ you can download schematics and the source code of the firmware. It is available under GPL.
-| In :ref:`software` section we provides an overview of the structure of the project firmware. 
+| For board schematics and source code it is needed the registration from `ArchiTech website <http://www.architechboards.org/>`_.
+| If you are interested to develop on this board don't forget to read the :ref:`development` section.
 |
 
-**Key factors of Louvre:**
+**General Description**
 
 * Small form factor
 * ISO7816 ID1 form factor (creditcard)
 * NXP NTAG I2C
-* NXP Cortex M???????????? LPC11U37 Microcontroller
-* 2.7 e-ink display
+* NXP Cortex M0 LPC11U37 Microcontroller
+* 2.7 e-ink display
 * SEN300 temperature sensor
 * Micro-USB connector
 * Possibility to operate without battery
@@ -49,7 +54,7 @@ Contents:
    :maxdepth: 3
    
    quick
-   software
+   development
    update
    board
    appendix
