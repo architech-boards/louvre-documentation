@@ -1,9 +1,6 @@
 Appendix
 ========
 
-APK file
---------
-
 - **APK** stand for Android application PacKage and it is the package format used to distribuite and install application software onto Android operating system.
 - **E-Ink** (electrophoretic ink) is a specific proprietary type of electronic paper manufactured by E Ink Corporation (`E-Ink <http://www.eink.com>`_)
 - **NTAG** The NTAG family has been developed by NXP Semiconductors as standard NFC tag ICs to be used in mass market applications such as retail, gaming and consumer electronics, in combination with NFC devices or NFC compliant Proximity Coupling Devices.

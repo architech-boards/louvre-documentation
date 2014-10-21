@@ -88,5 +88,5 @@ The debug will start.
 Firmware Details
 ----------------
 
-Il codice delle librerie usate sono state direttamente importate nel progetto...
+All code libreries used is been imported directly in the project.
 
