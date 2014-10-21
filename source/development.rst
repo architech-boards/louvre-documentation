@@ -11,14 +11,13 @@ To develop on Louvre board are required:
 
 - hardware:
 	- Louvre Board
-	- NXP LPC-Link, please refer to http://www.embeddedartists.com. In this guide we have used LPC-Link 1 of this board http://www.embeddedartists.com/products/lpcxpresso/lpc11U24_xpr.php not the LPC-Link 2.
+	- NXP LPC-Link, please refer to `embeddedartists <http://www.embeddedartists.com>`_ website. In this guide we have used LPC-Link 1 of this `board <http://www.embeddedartists.com/products/lpcxpresso/lpc11U24_xpr.php>`_ not the LPC-Link 2.
 
 Download LPCExpresso
 --------------------
 
 The developement software used is LPCxpresso, we suggest to install at the least version 7.3.
-This application is freely downloadable from lpcware site. Go to:
-http://www.lpcware.com/lpcxpresso/downloads/windows
+This application is freely downloadable from lpcware site. Go to `lpcxpresso <http://www.lpcware.com/lpcxpresso/downloads/windows>`_ webpage
 Install the LPCxpresso following default procedure. In this guide the SDK is installed in the default path *C:\nxp* and we refer to this in our example.
 After the installation you need to register in order to activate the **Free Edition** of the LPCXpresso.
 Launch the SDK selecting as workspace folder *C:\nxp\workspace*.
