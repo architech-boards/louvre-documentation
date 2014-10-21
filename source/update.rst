@@ -7,8 +7,14 @@ Android Application Update
 Firmware Update
 ---------------
 
-| To update the firmware from USB you have to short the pin x CNz with pin y CNz when plug the mini-usb from the PC to the board.
-| The LPC11U will run in boot mode and your PC will plug the board as a mass storage device. To update all you need is copy the new firmware in the mass storage. Obviously delete first the old one.
-| 
+To update the firmware from USB you have to short the pin 1 CN4 with pin 2 CNz.
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/louvre_boot_jumpers.jpg
+
+Then plug the mini-usb from the PC to the board.
+
+.. image:: _images/louvre_usb.jpg
+
+The LPC11U will run in boot mode and your PC will plug the board as a mass storage device. To update all you need is copy the new firmware in the mass storage. Delete first the old one before to copy one newer.
+ 
+

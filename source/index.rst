@@ -1,7 +1,7 @@
 Welcome to Louvre Board's documentation!
 ========================================
 
-:Version: 1.0.0A
+:Version: 1.0.0B
 :Copyright: (C)2014 Silica an Avnet company
 :Date: 16 Sep 2014
 

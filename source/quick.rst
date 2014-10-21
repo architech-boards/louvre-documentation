@@ -13,11 +13,11 @@ Unboxing
 
 The product is supplied with the box like this:
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/box_closed.jpg
 
 And this is the content of box:
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/box_opened.jpg
 
 The board itself has been programmed with the demo.
 
@@ -62,7 +62,7 @@ This demo has the purpose to show how the Louvre can run getting energy only fro
 
 3. Lay down the tablet on the Louvre. The Android device must cover all the antenna area of the Louvre.
 
-.. image:: _images/tablet_louvre.jpg
+.. image:: _images/louvre_tablet.jpg
 
 4. Once the data transfer is done a message is reported on the tablet. Do not remove the device from the Louvre until the e-ink display doesn't show the selected image.
 
@@ -76,16 +76,16 @@ This demo has the purpose to show the communication from the Louvre board to the
 
 1. Insert mini-usb cable from PC to the CNX connector of the board.
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/louvre_usb.jpg
 
 2. The Louvre display on the e-ink screen the temperature read from **SEN300** sensor and the last capacitive button pressed.
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/louvre_usb_none.jpg
 
 3. If you press a capacitive button S1, S2, S3 or S4 this will displayed on the screen.
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/louvre_usb_s2.jpg
 
 4. To transfert the temperature data and the button pressed start the android application and lay down the device on the Louvre. The application display the data read.
 
-.. image:: _images/louvre_board.jpg
+.. image:: _images/louvre_usb_tablet.jpg
