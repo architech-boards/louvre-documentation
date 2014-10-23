@@ -85,7 +85,3 @@ This demo has the purpose to show the communication from the Louvre board to the
 3. If you press a capacitive button S1, S2, S3 or S4 this will displayed on the screen.
 
 .. image:: _images/louvre_usb_s2.jpg
-
-4. To transfert the temperature data and the button pressed start the android application and lay down the device on the Louvre. The application display the data read.
-
-.. image:: _images/louvre_usb_tablet.jpg
