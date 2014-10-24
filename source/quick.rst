@@ -36,7 +36,7 @@ Install Android Application
 
 1. open the **Application** menu and click on the **Settings** application.
 
-2. Select **Applications** from the **Settings** menu
+2. Select **Applications** from the **Settings** menu then select **Security**
 
 3. Check the first selection, **Unknown Sources** so you can install an APK file from a location other than the Android Market. A warning message will be desplayed, select **OK** to continue.
 
@@ -67,6 +67,10 @@ This demo has the purpose to show how the Louvre can run getting energy only fro
 4. Once the data transfer is done a message is reported on the tablet. Do not remove the device from the Louvre until the e-ink display doesn't show the selected image.
 
 .. image:: _images/nfcget_written.png
+
+5. Finally the display will show the image selected
+
+.. image:: _images/nfcget_success.jpg
 
 
 Demo with Mini-USB cable
