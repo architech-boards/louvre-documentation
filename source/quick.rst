@@ -78,14 +78,18 @@ Demo with Mini-USB cable
 
 This demo has the purpose to show the communication from the Louvre board to the android device.
 
-1. Insert mini-usb cable from PC to the CNX connector of the board.
+1. Check the jumper **CN4** is setted correctly:
+
+.. image:: _images/louvre_run_jumpers.jpg
+
+2. Insert mini-usb cable from PC to the CNX connector of the board.
 
 .. image:: _images/louvre_usb.jpg
 
-2. The Louvre display on the e-ink screen the temperature read from **SEN300** sensor and the last capacitive button pressed.
+3. The Louvre display on the e-ink screen the temperature read from **SEN300** sensor and the last capacitive button pressed.
 
 .. image:: _images/louvre_usb_none.jpg
 
-3. If you press a capacitive button S1, S2, S3 or S4 this will displayed on the screen.
+4. If you press a capacitive button S1, S2, S3 or S4 this will displayed on the screen.
 
 .. image:: _images/louvre_usb_s2.jpg

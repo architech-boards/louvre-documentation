@@ -15,6 +15,6 @@ The Louvre board demo is fitted with these devices:
 - NXP UHF. not used by firmware
 
 - miniusb: used to power supply the board (see demo 2)
-- jumper 3 Pin: used for boot mode of the LPC11U34 (see upgrade section)
+- jumper CN4: used for boot mode of the LPC11U34 (see upgrade section)
 
 To download the schematics please visit `architechboards Louvre <http://architechboards.org/product/louvre-board>`_ webpage. 
