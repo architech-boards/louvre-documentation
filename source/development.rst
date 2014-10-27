@@ -77,7 +77,7 @@ To debug the project you need to build it, from the menu go to *Project -> Build
 
 .. image:: _images/sdk_console_compilation.jpg
 
-Then click on the icon:
+Then click on the "bug" icon, be careful, the right bug is that on the left!
 
 .. image:: _images/sdk_debug.jpg
 
