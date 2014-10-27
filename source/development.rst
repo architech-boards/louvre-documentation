@@ -18,9 +18,9 @@ Download LPCExpresso
 
 The developement software used is LPCxpresso, we suggest to install at the least version 7.3.
 This application is freely downloadable from lpcware site. Go to `lpcxpresso <http://www.lpcware.com/lpcxpresso/downloads/windows>`_ webpage
-Install the LPCxpresso following default procedure. In this guide the SDK is installed in the default path *C:\nxp* and we refer to this in our example.
+Install the LPCxpresso following default procedure. In this guide the SDK is installed in the default path *C:\\nxp* and we refer to this in our example.
 After the installation you need to register in order to activate the **Free Edition** of the LPCXpresso.
-Launch the SDK selecting as workspace folder *C:\nxp\workspace*.
+Launch the SDK selecting as workspace folder *C:\\nxp\\workspace*.
 
 .. image:: _images/sdk_workspace_path.jpg
 
@@ -44,7 +44,7 @@ Environment Setup
 To get the source of the firmware, you need to register to architechboards website.
 This site provides software and documentation needed to develop with the Louvre board. Save it in your bookmarks to be updated with the new releases.
 In the homepage select the **Louvre board** in the **Products** menu. In this page you can find the download link.
-Once got the firmware source, unpack it into *C:\nxp\workspace* folder.
+Once got the firmware source, unpack it into *C:\\nxp\\workspace* folder.
 
 Import Project
 --------------
@@ -53,7 +53,7 @@ After unpacked the source code you have to import the project. Select from the m
 
 .. image:: _images/sdk_import_existing_prj.jpg
 
-Choose root directory as *C:\nxp\workspace* and select *C:\nxp\workspace\SW* project. Then press *Finish* button.
+Choose root directory as *C:\\nxp\\workspace* and select *C:\\nxp\\workspace\\SW* project. Then press *Finish* button.
 
 .. image:: _images/sdk_import_firmware.jpg
 
@@ -88,5 +88,8 @@ The debug will start.
 Firmware Details
 ----------------
 
-All code libreries used is been imported directly in the project.
+| All libreries code used is been imported directly into the project: i2c.c, ssp.c, gpio.c, timer.c and adc.c. The file adc.c is not used. 
+| The code for the e-ink is in the modules eink.c and fonts.c. 
+| The module driver.c is for manage temperature sensor, capacitive buttons and nfc protocol.
+| To have more details, the source code is provided with comments.
 
