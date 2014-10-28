@@ -30,7 +30,7 @@ Install Android Application
  However the most device in the market are capable to work with the board without problems.
  
 | Now let's to see how install the application. An Android application is stored in an APK file, you must install the APK on you Android device in order to run it.
-| The easiest way is to download the file from `ArchiTech website <http://www.architechboards.org/>`_ directly by your device.
+| The easiest way is to download the file `here <http://downloads.architechboards.com/doc/Louvre/NfcGet.apk>`_ directly by your device. However, you can find this application even at `ArchiTech website <http://www.architechboards.org/>`_ but for our purpose is little bit more tricky download it by the android device.
 | Before to start, you have to enable installing from **Unknown Sources**. To do this follow next steps:
 |
 
