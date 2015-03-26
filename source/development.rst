@@ -92,4 +92,37 @@ Firmware Details
 | The code for the e-ink is in the modules eink.c and fonts.c. 
 | The module driver.c is for manage temperature sensor, capacitive buttons and nfc protocol.
 | To have more details, the source code is provided with comments.
+|
+
+Bootloader
+----------
+
+The bootloader is the first program executed, located at the first two blocks of the flash memory (**0x0000 - 0x1FFF**) for a total size of **2K** bytes.
+Its work is controlling first the presence of a NFC segnal; if it so, it verifies if there is a new program to load and memorize it in flash; otherwise it checks the presence of a valid applicative program in the flash memory and if it so, copies in ram memory (**0x10000000 - 0x100000bf**) the applicative interrupt vectors and lauches it. If the application is not valid then it checks continuosly NFC signal and it waits a new program to download.
+
+| **Flash memory map:**
+| **0000 00BF**  bootloader code vector table
+| **00C0 1FFB**  bootloader code                                                                                                                     
+| **1FFC 1FFF**  software version
+|
+| **Ram memory map:**
+| **0x10000000 0x100000BF** applicative interrupt vectors table
+| **0x100000C0**            bootloader/applicative ram memory
+|
+| **Applicative:**
+| **Flash memory map:**
+| **2000 2003** applicative checkusm (used by bootloader to verify the code)
+| **2004 2007** applicative lenght
+| **2008 200B** applicative version
+| **200C 20BF** applicative code vector table (will be copied in the ram memory)
+| **20C0**      applicative code
+| 
+| **Ram memory map:**
+| **0x10000000 0x100000BF** applicative interrupt vectors table
+| **0x100000C0**            ram memory
+|
+
+.. important::
+
+ | Due to the optimization, it is not possible debugging the bootloader
 
