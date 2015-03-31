@@ -6,15 +6,9 @@ Welcome to Louvre Board's documentation!
 :Date: 26 Mar 2015
 
 .. image:: _images/louvre_board.jpg
-
-.. image:: _images/silica.png
-
 .. image:: _images/nxp.jpg
-
 .. image:: _images/ntag.jpg
-
 .. image:: _images/android.jpg
-
 .. index:: index
 
 Introduction
