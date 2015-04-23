@@ -1,9 +1,9 @@
 Welcome to Louvre Board's documentation!
 ========================================
 
-:Version: 1.0.0G
+:Version: 1.0.0H
 :Copyright: (C)2014 Silica an Avnet company
-:Date: 26 Mar 2015
+:Date: 23 Apr 2015
 
 .. image:: _images/louvre_board.jpg
 .. image:: _images/nxp.jpg
@@ -32,12 +32,11 @@ Introduction
 **General Description**
 
 * Small form factor
-* ISO7816 ID1 form factor (creditcard)
 * NXP NTAG I2C
 * NXP Cortex M0 LPC11U37 Microcontroller
 * 2.7 e-ink display
-* SEN300 temperature sensor
-* Micro-USB connector
+* SE98ATP temperature sensor
+* Mini-USB connector
 * Possibility to operate without battery
 * Full size antenna to maximize energy harvesting
 * Four capacitive buttons to enable user interaction

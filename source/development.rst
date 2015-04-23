@@ -49,14 +49,21 @@ Once got the firmware source, unpack it into *C:\\nxp\\workspace* folder.
 Import Project
 --------------
 
-After unpacked the source code you have to import the project. Select from the menu *File -> Import* and before to press *Next* button select *Existing project into Workspace*.
+You can import the project directly from the packed file downloaded before. In order to do this, press on "Import Project":
 
-.. image:: _images/sdk_import_existing_prj.jpg
+.. image:: _images/import_0.jpg
 
-Choose root directory as *C:\\nxp\\workspace* and select *C:\\nxp\\workspace\\SW* project. Then press *Finish* button.
+Then browse and select the "Boot Louvre.zip" file, click on "next" button:
 
-.. image:: _images/sdk_import_firmware.jpg
+.. image:: _images/import_1.jpg
 
+Select all and click another time on "next" button:
+
+.. image:: _images/import_2.jpg
+
+Now you have the project loaded:
+
+.. image:: _images/import_3.jpg
 
 Debug Project
 -------------

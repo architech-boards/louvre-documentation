@@ -8,8 +8,8 @@ The Louvre board demo is fitted with these devices:
 
 .. image:: _images/louvre_diagram.jpg
 
-- LPC11U34: is an ARM Cortex-M0 processor
-- SEN300: temperature reader sensor
+- NXP Cortex M0 LPC11U37 Microcontroller
+- SE98ATP temperature sensor
 - NXP NTAG: The NTAG family has been developed by NXP Semiconductors as standard NFC tag ICs to be used in mass market applications such as retail, gaming and consumer electronics, in combination with NFC devices or NFC compliant Proximity Coupling Devices.
 - 2.7” E-Ink EM027BS013 from Pervasive Displays: The 2.7" panel has resolution of 264 x 176 (117 dpi).
 - NXP UHF. not used by firmware

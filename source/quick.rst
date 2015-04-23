@@ -86,7 +86,7 @@ This demo has the purpose to show the communication from the Louvre board to the
 
 .. image:: _images/louvre_usb.jpg
 
-3. The Louvre display on the e-ink screen the temperature read from **SEN300** sensor and the last capacitive button pressed.
+3. The Louvre display on the e-ink screen the temperature read from **SE98ATP** sensor and the last capacitive button pressed.
 
 .. image:: _images/louvre_usb_none.jpg
 
