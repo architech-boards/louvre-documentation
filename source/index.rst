@@ -1,9 +1,9 @@
 Welcome to Louvre Board's documentation!
 ========================================
 
-:Version: 1.0.0H
+:Version: 1.0.0I
 :Copyright: (C)2014 Silica an Avnet company
-:Date: 23 Apr 2015
+:Date: 11 May 2015
 
 .. image:: _images/logo.jpg
 .. index:: index
@@ -15,19 +15,19 @@ Introduction
 The Louvre board doesn't have any battery; when needed the power is supplied exclusively from the NFC antenna.
 The firmware provided will show the operation:
 
-- **Powerless Mode** with two possible applications:
+  | ° **Powerless Mode** with two possible applications:
 
-    - Display will show a picture updatable via smartphone, see in :ref:`image_application`
+    1. Display will show a picture updatable via smartphone, see in :ref:`image_application`
 
-    - LPC11U37 firmware can be updated via smartphone, see in :ref:`firmware_application`
+    2. LPC11U37 firmware can be updated via smartphone, see in :ref:`firmware_application`
 
-- **Power Mode**:
+  | ° **Power Mode**:
 
-    - User interface will be displayed on e-paper when connected to USB (only as power source), see in :ref:`power_mode`
+    | User interface will be displayed on e-paper when connected to USB (only as power source), see in :ref:`power_mode`
 
         - Showing sensor data
 
-        - User value (S1, S2, S3, S4) can be modified via capacitive buttons
+        - (S1, S2, S3, S4) will show the last touched capacitive buttons
 
 In this documentation we show step by step the features of the firmware and how debug it.
 
@@ -54,7 +54,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 3
-   
+
    quick
    development
    board

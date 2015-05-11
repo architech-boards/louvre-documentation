@@ -85,6 +85,7 @@ Download into Louvre
 In order to download the firmware into Louvre board you have to:
 
 1. Recompile the **Louvre Firmware Update** Android application with the firmware.hex file built previously. You can find the source project on `github <https://github.com/architech-boards/louvre-firmware_update.git>`_.
+To change the downloaded firmware, the file *firmware.hex* must be changed under the `this folder <https://github.com/architech-boards/louvre-firmware_update/tree/master/app/src/main/res/raw>`_.
 
 2. Use the :ref:`firmware_application` to upload the Louvre board.
 
