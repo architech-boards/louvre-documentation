@@ -82,6 +82,7 @@ With this application :
 
     - It is required have to enabled the NFC feature on the Android device
     - The source project is downloadable `on github <https://github.com/architech-boards/louvre-image_sender.git>`_
+    - The application `note AN11367 <http://www.nxp.com/documents/application_note/AN11367.pdf>`_ helps how write Android application with NFC technology
 
 1. Download and install the Android Application via **Google Play Store**, you can use the Qr Code below or search in the `Google Play Store <https://play.google.com>`_ with the name `Louvre Image Sender <https://play.google.com/store/search?q=Louvre%20Image%20Sender>`_.
 
@@ -124,6 +125,7 @@ From this application it is possible also retrieve some tag settings.
     - It is required the bootloder installed on the Louvre microcontroller to enable this download even the part is in-field.
     - It is required have to enabled the NFC feature on the Android device
     - The java source project is downloadable on `github <https://github.com/architech-boards/louvre-firmware_update.git>`_
+    - The application note `AN11367 <http://www.nxp.com/documents/application_note/AN11367.pdf>`_ helps how write Android application with NFC technology
 
 1. Download and install the Android Application via **Google Play Store**, you can use the **QR Code** below or search in the `Google Play Store <https://play.google.com>`_ with the name `Louvre Firmware Update <https://play.google.com/store/search?q=Louvre%20Firmware%20Update>`_.
 
