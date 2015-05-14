@@ -49,7 +49,7 @@ Firmware Projects
 
 .. warning::
 
- | Temporally please download the bootloader firmware source from `here <http://downloads.architechboards.com/doc/Louvre/ArchiTech_Louvre_Boot_Firmware.zip>`_
+ | Temporarily please download the bootloader firmware source from "Louvre Board - All Documents and Software in one place" on `the architechboards website <http://architechboards.org/product/louvre-board>`_ section **Downloads Louvre Board -> Software**
 
 
 To get the last source of the firmware and bootloader, go to `architechboards website <http://architechboards.org/product/louvre-board>`_.
@@ -113,7 +113,7 @@ Bootloader Firmware
 
 .. warning::
 
- | Temporarily please download the bootloader firmware source from `here <http://downloads.architechboards.com/doc/Louvre/ArchiTech_Louvre_Boot_Firmware.zip>`_
+ | Temporarily please download the bootloader firmware source from "Louvre Board - All Documents and Software in one place" on `the architechboards website <http://architechboards.org/product/louvre-board>`_ section **Downloads Louvre Board -> Software**
 
 
 This is the software which permits to the Louvre to retrieve a newer :ref:`application_firmware` via the Android application called :ref:`firmware_application`.
