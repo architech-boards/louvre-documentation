@@ -47,11 +47,6 @@ If all is done correctly now you are able to deploy with the Free Edition LPCXpr
 Firmware Projects
 -----------------
 
-.. warning::
-
- | Temporarily please download the bootloader firmware source from "Louvre Board - All Documents and Software in one place" on `the architechboards website <http://architechboards.org/product/louvre-board>`_ section **Downloads Louvre Board -> Software**
-
-
 To get the last source of the firmware and bootloader, go to `architechboards website <http://architechboards.org/product/louvre-board>`_.
 This site provides software and documentation needed to develop with the Louvre board. Save it in your bookmarks to be updated with the new releases.
 In the homepage select the **Louvre board** in the **Products** menu.
@@ -110,11 +105,6 @@ To change the downloaded firmware, the file *firmware.hex* must be changed under
 
 Bootloader Firmware
 ^^^^^^^^^^^^^^^^^^^
-
-.. warning::
-
- | Temporarily please download the bootloader firmware source from "Louvre Board - All Documents and Software in one place" on `the architechboards website <http://architechboards.org/product/louvre-board>`_ section **Downloads Louvre Board -> Software**
-
 
 This is the software which permits to the Louvre to retrieve a newer :ref:`application_firmware` via the Android application called :ref:`firmware_application`.
 
