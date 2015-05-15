@@ -1,7 +1,9 @@
 
+.. index:: Quick Start Guide
+
 .. _quick:
 
-Quick start guide
+Quick Start Guide
 =================
 
 In this page it is showed the unboxing of the Louvre and how to use the board with its software.
@@ -9,6 +11,8 @@ In this page it is showed the unboxing of the Louvre and how to use the board wi
 .. warning::
 
 	The applications have been tested with a nexus 5.
+
+.. index:: Unboxing
 
 Unboxing
 --------
@@ -31,9 +35,11 @@ The board can run two possible modalities:
 
 - :ref:`powerless_mode`: it runs supplied by NFC antenna
 
+.. index:: Power Mode
+
 .. _power_mode:
 
-Power mode
+Power Mode
 ----------
 
 In order to run the **Power mode** interface it is needed supply the board via a mini usb cable:
@@ -56,6 +62,8 @@ In order to run the **Power mode** interface it is needed supply the board via a
 
 .. _powerless_mode:
 
+.. index:: Powerless Mode
+
 Powerless Mode
 --------------
 
@@ -64,6 +72,8 @@ The powerless mode works with two different Android applications:
   - :ref:`image_application`: it sends images to the Louvre and the board will show them.
 
   - :ref:`firmware_application`: it sends a newer :ref:`application_firmware` to the Louvre board.
+
+.. index:: Android Application - Louvre Image Sender
 
 .. _image_application:
 
@@ -111,6 +121,8 @@ With this application :
 7. Finally the display will show the image selected
 
 .. image:: _images/sender_display.jpg
+
+.. index:: Android Application - Louvre Firmware Update
 
 .. _firmware_application:
 

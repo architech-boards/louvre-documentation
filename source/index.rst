@@ -6,7 +6,8 @@ Welcome to Louvre Board's documentation!
 :Date: 11 May 2015
 
 .. image:: _images/logo.jpg
-.. index:: index
+
+.. index:: Introduction
 
 Introduction
 ============
@@ -49,6 +50,8 @@ In this documentation we show step by step the features of the firmware and how 
 * Possibility to operate without battery
 * Full size antenna to maximize energy harvesting
 * Four capacitive buttons to enable user interaction
+
+.. index:: Contents
 
 Contents:
 

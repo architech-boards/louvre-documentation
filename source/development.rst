@@ -1,3 +1,6 @@
+
+.. index:: Development
+
 .. _development:
 
 Development
@@ -18,6 +21,8 @@ To develop on Louvre board are required:
   - Louvre Board
 
   - NXP LPC-Link (version 1 or 2), please refer to `embeddedartists <http://www.embeddedartists.com>`_ website. In this guide we have tested both the LPC-Link 1 of this `board <http://www.embeddedartists.com/products/lpcxpresso/lpc11U24_xpr.php>`_ and the LPC-Link 2.
+
+.. index:: Download LPCExpresso
 
 Download LPCExpresso
 --------------------
@@ -50,6 +55,8 @@ Firmware Projects
 To get the last source of the firmware and bootloader, go to `architechboards website <http://architechboards.org/product/louvre-board>`_.
 This site provides software and documentation needed to develop with the Louvre board. Save it in your bookmarks to be updated with the new releases.
 In the homepage select the **Louvre board** in the **Products** menu.
+
+.. index:: Source - Application Firmware
 
 .. _application_firmware:
 
@@ -101,6 +108,8 @@ To change the downloaded firmware, the file *firmware.hex* must be changed under
  | To have more details, the source code is provided with comments.
  |
 
+.. index:: Source - Bootloader Firmware
+
 .. _bootloader_firmware:
 
 Bootloader Firmware
@@ -151,6 +160,8 @@ To upload it in the Louvre board you have two choice. **The first, the easiest**
 
 **The second choice** is using the **LPC-Link 1** or **LPC-Link 2**:
 
+.. index:: LPC-Link 1 connections
+
 - **LPC-Link 1**
 
 1.  make sure that you have connected the LPC-Link to PC. Connect with a cable the **J4** LPC-Link connector to the **CN3** connector of the Louvre board.
@@ -172,6 +183,8 @@ pin J4 pin CN3 Signal Names
 3. Then click on the *processor* icon.
 
 .. image:: _images/program_flash.jpg
+
+.. index:: LPC-Link 2 connections
 
 - **LPC-Link 2**
 
