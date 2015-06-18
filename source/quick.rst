@@ -91,6 +91,7 @@ With this application :
 .. note::
 
     - It is required have to enabled the NFC feature on the Android device
+    - If you have a cover on your phone, please remove it.
     - The source project is downloadable `on github <https://github.com/architech-boards/louvre-image_sender.git>`_
     - The application `note AN11367 <http://www.nxp.com/documents/application_note/AN11367.pdf>`_ helps how write Android application with NFC technology
 
