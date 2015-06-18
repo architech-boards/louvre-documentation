@@ -137,6 +137,7 @@ From this application it is possible also retrieve some tag settings.
 
     - It is required the bootloder installed on the Louvre microcontroller to enable this download even the part is in-field.
     - It is required have to enabled the NFC feature on the Android device
+    - If you have a cover on your phone, please remove it.
     - The java source project is downloadable on `github <https://github.com/architech-boards/louvre-firmware_update.git>`_
     - The application note `AN11367 <http://www.nxp.com/documents/application_note/AN11367.pdf>`_ helps how write Android application with NFC technology
 
